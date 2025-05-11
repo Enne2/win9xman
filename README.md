@@ -2,7 +2,7 @@
 
 A graphical launcher tool for running Windows 95/98 in DOSBox-X with advanced management features.
 
-![DOSBox-X Windows Manager](https://example.com/screenshot.png)
+![DOSBox-X Windows Manager](logo.png)
 
 ## Overview
 

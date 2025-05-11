@@ -5,14 +5,12 @@
 *.vhd
 *.vdi
 *.vmdk
-disks/
 
 # ISO files
 *.iso
-iso/
 
 # Snapshots
-snapshots/
+snapshots/*
 
 # Generated/temporary config files
 temp_dosbox.conf
@@ -30,8 +28,8 @@ temp_config_tune.conf
 *.log.*
 
 # Windows system files
-win98_drive/
-win95_drive/
+win98_drive/*
+win95_drive/*
 
 # Editor specific files
 .vscode/
