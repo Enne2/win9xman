@@ -1,0 +1,44 @@
+# DOSBox-X Windows Manager .gitignore
+
+# Disk images
+*.img
+*.vhd
+*.vdi
+*.vmdk
+disks/
+
+# ISO files
+*.iso
+iso/
+
+# Snapshots
+snapshots/
+
+# Generated/temporary config files
+temp_dosbox.conf
+temp_dosbox_win95.conf
+temp_config_tune.conf
+
+# Backup files
+*.bak
+*~
+*.old
+*.backup
+
+# Log files
+*.log
+*.log.*
+
+# Windows system files
+win98_drive/
+win95_drive/
+
+# Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Zenity temporary files
+.zenity_*
