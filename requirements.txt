@@ -1,0 +1,2 @@
+# No external dependencies required beyond Python standard library
+# Python 3.6+ with Tkinter (usually included with Python)

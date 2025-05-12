@@ -1,0 +1,9 @@
+# Mount the Windows 95 HDD image as drive C
+imgmount c "${hdd_image}" -t hdd -fs fat
+
+# Mount the Windows 95 drive as E
+mount e "${drive_dir}"
+
+${iso_mount}
+
+${boot_command}

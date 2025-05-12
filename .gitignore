@@ -1,4 +1,4 @@
-# DOSBox-X Windows Manager .gitignore
+# Windows 9x Manager .gitignore
 
 # Disk images
 *.img
@@ -11,11 +11,10 @@
 
 # Snapshots
 snapshots/*
+snapshots_win95/*
 
 # Generated/temporary config files
 temp_dosbox.conf
-temp_dosbox_win95.conf
-temp_config_tune.conf
 
 # Backup files
 *.bak
@@ -31,12 +30,35 @@ temp_config_tune.conf
 win98_drive/*
 win95_drive/*
 
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+.env/
+.python-version
+
 # Editor specific files
 .vscode/
 .idea/
 *.swp
 *.swo
 .DS_Store
-
-# Zenity temporary files
-.zenity_*
